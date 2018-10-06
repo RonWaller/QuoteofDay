@@ -1,5 +1,5 @@
 let request = new XMLHttpRequest();
-let url = 'http://quotes.rest/qod.json';
+let url = 'https://quotes.rest/qod.json';
 
 request.onload = function() {
     if (this.status === 200) {
