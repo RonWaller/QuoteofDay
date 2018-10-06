@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Glegoo);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 600px;
+    height: 250px;
+    margin: 25px auto;
+    background-size: cover;
+    /* background-position: 0 5px; */
+    background-repeat: no-repeat;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.6);
+    width: 600px;
+    height: 250px;
+    padding: 25px;
+    position: relative;
+    text-align: center;
+}
+
+.quote {
+    font-size: 1.1rem;
+    padding: 20px;
+    line-height: 1.1;
+    font-family: 'Glegoo', serif;
+}
+
+.author {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+}
